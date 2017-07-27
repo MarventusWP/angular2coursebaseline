@@ -3,12 +3,13 @@
     "project": {
         "name": "upgrade-project"
     },
-    "apps": [{
-        "root": "src",
-        "outDir": "dist",
-        "assets": [
-            "assets",
-            "favicon.ico"
+    "apps": [
+        {
+            "root": "src",
+            "outDir": "dist",
+            "assets": [
+                "assets",
+                "favicon.ico"
         ],
         "index": "index.html",
         "main": "main.ts",

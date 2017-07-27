@@ -1,0 +1,26 @@
+.modal {
+    bottom: auto;
+    left: 25%;
+    right: auto;
+    top: 50px;
+    width: 50%;
+}
+.modal.in {
+    display: block!important;
+}
+.modal-dialog {
+    margin: 0 auto;
+    width: 100%;
+}
+.modal-bg {
+    background: rgba(0,0,0, 0.75);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.modal.in ~ .modal-bg {
+    display: block;
+}

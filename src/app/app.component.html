@@ -1,23 +1,23 @@
 <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h1>{{title}}</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>{{title}}</h1>
 
-      <div class="header-bar"></div>
-      
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li routerLinkActive="active"><a routerLink="/dashboard">Dashboard</a></li>
-              <li routerLinkActive="active"><a>Heroes</a></li>
-            </ul>
-          </div>
+            <div class="header-bar"></div>
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li routerLinkActive="active"><a routerLink="/dashboard">Dashboard</a></li>
+                            <li routerLinkActive="active"><a routerLink="/heroes">Heroes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <router-outlet></router-outlet>
+
         </div>
-      </nav>
-
-      <router-outlet></router-outlet>
-
     </div>
-  </div>
 </div>
